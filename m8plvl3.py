@@ -75,3 +75,6 @@ students_python_spb = (
 print('\nСтуденты, проходящие курс по Python и из Spb:')
 for student in students_python_spb:
 	print(student.name, student.surname)
+
+conn.commit()	
+conn.close()
